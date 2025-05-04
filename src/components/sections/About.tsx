@@ -35,9 +35,9 @@ const About: React.FC = () => {
             About <span className="text-accent">Me</span>
           </h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-5 items-center">
+          <div className="grid grid-cols-1 md:grid-cols-1 gap-5 items-center">
             {/* Image Section */}
-            <div className="opacity-0 transform translate-y-8 transition-all duration-700 ease-out fallback-visible">
+            {/* <div className="opacity-0 transform translate-y-8 transition-all duration-700 ease-out fallback-visible">
               <div className="relative w-full max-w-md mx-auto aspect-square rounded-lg overflow-hidden border-2 border-accent p-2">
                 <div className="absolute inset-0 bg-primary-800/40 z-10"></div>
                 <img
@@ -46,7 +46,7 @@ const About: React.FC = () => {
                   className="w-full h-full object-cover rounded"
                 />
               </div>
-            </div>
+            </div> */}
 
             {/* Text Section */}
             <div className="opacity-0 transform translate-y-8 transition-all duration-700 ease-out delay-300 fallback-visible">
