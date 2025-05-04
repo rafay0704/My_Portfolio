@@ -41,7 +41,7 @@ const Navbar: React.FC = () => {
           }}
         >
           <Code size={28} />
-          <span className="font-heading font-semibold text-xl">DevPortfolio</span>
+          <span className="font-heading font-semibold text-xl">Abdul Rafay</span>
         </a>
 
         {/* Desktop Navigation */}
